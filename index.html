@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freewilled — Be Free. Build Bold.</title>
+  <meta name="description" content="Freewilled — a clean, fast landing page. Launch your idea with clarity.">
+  <meta property="og:title" content="Freewilled — Be Free. Build Bold.">
+  <meta property="og:description" content="A clean, fast landing page for your brand.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://freewilled.in">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>">
+  <style>
+    :root{
+      --bg:#0f172a;        /* dark slate */
+      --fg:#e5e7eb;        /* light text */
+      --muted:#94a3b8;     /* slate-400 */
+      --accent:#22d3ee;    /* cyan-400 */
+      --card:#111827;      /* gray-900 */
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px}
+    .logo-badge{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,#22d3ee, #60a5fa);display:grid;place-items:center;color:#0b1020;font-weight:900}
+    .hero{display:grid;gap:18px;grid-template-columns:1.2fr 1fr;align-items:center;padding:48px 0}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    h1{font-size: clamp(32px, 6vw, 56px);line-height:1.08;margin:0}
+    p.lead{font-size: clamp(16px, 2.5vw, 20px);color:var(--muted);margin:0}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+    .btn{padding:12px 18px;border-radius:14px;border:1px solid transparent;background:var(--accent);color:#001018;font-weight:700;cursor:pointer}
+    .btn.secondary{background:transparent;border-color:#334155;color:var(--fg)}
+    .card{background:var(--card);border:1px solid #1f2937;border-radius:18px;padding:20px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    .headline{color:#a5b4fc;font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase}
+    footer{padding:28px 0;color:var(--muted);font-size:14px}
+    .illustration{aspect-ratio:4/3;border-radius:18px;background:
+      radial-gradient(60% 80% at 20% 20%, rgba(34,211,238,.25), transparent 60%),
+      radial-gradient(70% 90% at 80% 50%, rgba(96,165,250,.18), transparent 60%),
+      linear-gradient(180deg, #0b1220, #0a1020);border:1px solid #1f2937;display:grid;place-items:center}
+    .illus-content{display:grid;gap:10px;place-items:center;text-align:center;padding:20px}
+    .illus-title{font-weight:800;font-size:20px}
+    .illus-tag{font-size:12px;color:var(--muted)}
+    .check{display:flex;gap:10px;align-items:flex-start}
+    .check svg{flex:0 0 auto;margin-top:3px}
+    .spaced{margin-top:12px}
+    .kbd{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:#0b1020;border:1px solid #1f2937;border-radius:8px;padding:2px 6px;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="logo">
+        <div class="logo-badge">F</div>
+        <div>Freewilled</div>
+      </div>
+      <div><a href="#contact">Contact</a></div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <div class="headline">Be Free. Build Bold.</div>
+        <h1>A clean, fast landing page you can edit in minutes.</h1>
+        <p class="lead">Tell people what you do, collect leads, and look professional from day one.</p>
+        <div class="cta">
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn secondary" href="#features">See features</a>
+        </div>
+        <div class="spaced">
+          <div class="check">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>Mobile-friendly, loads fast, no frameworks.</div>
+          </div>
+          <div class="check">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>Simple files: just <span class="kbd">index.html</span>.</div>
+          </div>
+          <div class="check">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>SEO-friendly meta tags + social previews included.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="illustration card">
+        <div class="illus-content">
+          <div class="illus-title">freewilled.in</div>
+          <div class="illus-tag">Your brand, your rules.</div>
+          <div style="opacity:.8;font-size:14px">Replace this text with your pitch.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="grid">
+      <div class="card">
+        <h3>Clear message</h3>
+        <p>One tagline, one call-to-action. No clutter.</p>
+      </div>
+      <div class="card">
+        <h3>Trust signals</h3>
+        <p>Add a short about, testimonials, or logos of clients.</p>
+      </div>
+      <div class="card">
+        <h3>Easy contact</h3>
+        <p>Use the contact block below to collect leads.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:18px">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:hello@freewilled.in">hello@freewilled.in</a></p>
+      <p>Or use this form (it opens your email app):</p>
+      <p><a class="btn" href="mailto:hello@freewilled.in?subject=Hello%20Freewilled&body=Hi%2C%20I%27m%20interested%20in...">Email us</a></p>
+      <p style="color:var(--muted);font-size:14px">Tip: set up <span class="kbd">hello@freewilled.in</span> at your domain provider, or change to your Gmail temporarily.</p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Freewilled. All rights reserved.
+    </footer>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
